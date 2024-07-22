@@ -1,0 +1,80 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.names, .objects {
+    width: 40%;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #d0d0d0;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d0d0d0;
+    width: 100%;
+}
+
+footer p {
+    color: black;
+}
+.rede-social {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.rede-social img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #333;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    background-color: rgb(243, 243, 49);
+    padding: 0px;
+}
+footer img {
+    width: 30px;
+    text-align: center;
+    margin: 0;
+}
